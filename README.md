@@ -110,3 +110,9 @@ _________________________________________________________________________
 
 # How to navigate our Github Project:
 
+The GitHub repository is divided into 4 folders:
+
+> * `Code` folder that contains the code files.
+> * `Proteus Simulation` that contains the simulation of the Arduino circuit.
+> * `Testing` that contains a video for the car.
+> * `Modeling & Anaylsis` that contains our analysis process.
