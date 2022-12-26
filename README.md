@@ -1,9 +1,10 @@
 # Project Documentation
 The documentation is divided into two main sections:
 
-[Project content](#content) 
+#[1.Project content](#Abstract) 
  
-#content
+#[2.How to navigate the GitHub Project](#How)
+
 It is a Remote Controlled car made as an application of what we have learnt in control course at the university. 
 
 
@@ -101,4 +102,9 @@ ______________________________________________________________
 
 > Arduino-Based bluetooth-controlled RC-car Reaserch Paper -> [Click here](http://csjournals.com/IJCSC/PDF11-1/2.%20Paul.pdf)
 
+
+
+___________________________________________________________________
+
+How to navigate our Github Project:
 
