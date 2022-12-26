@@ -1,14 +1,15 @@
 # Project Documentation
-The documentation is divided into two main sections:
-
-#[1.Project content](#Abstract) 
- 
-#[2.How to navigate the GitHub Project](#How)
-
-It is a Remote Controlled car made as an application of what we have learnt in control course at the university. 
+     
+     The documentation is divided into two main sections:
+     
+       1. Project content.
+       2. How to navigate the GitHub Project repository.
 
 
-How to navigate Github project
+# Project Content:
+
+It is a Remote Controlled car made as an application of what we have learnt in control course at the university and the following sections illustrates the project in details.
+
 
 ## Abstract:
 
@@ -104,7 +105,8 @@ ______________________________________________________________
 
 
 
-___________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
 
-How to navigate our Github Project:
+# How to navigate our Github Project:
 
