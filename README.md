@@ -1,7 +1,11 @@
 # Project Documentation
+The documentation is divided into two main sections:
+
+[Project content](#content) 
+ 
+#content
 It is a Remote Controlled car made as an application of what we have learnt in control course at the university. 
 
-Project content 
 
 How to navigate Github project
 
@@ -25,68 +29,76 @@ How to navigate Github project
 > ![image](https://user-images.githubusercontent.com/91850794/209566528-f5a3030d-9f0d-40e6-9832-2d619277c89c.png)
 > ![image](https://user-images.githubusercontent.com/91850794/209566993-0ddf124b-7608-4307-805c-45c816e22ac7.png)
 ______________________________________________________________
-> ### Followed methods:
+>> ### Followed methods:
 
-To design the prototype, the following steps were followed:
+>To design the prototype, the following steps were followed:
 
-* **STEP 1:**
+> * **STEP 1:**
 
-  On the three slots of the motor driver, we connect:
-   - The battery by the the 12v slot on the left-hand side of the three slots.
-   - The slot of ground in the middle on Arduino ground slot.
-   - The right one on the mini test board to have two  input for Bluetooth module and 5v for Arduino.
+>  On the three slots of the motor driver, we connect:
+>   - The battery by the the 12v slot on the left-hand side of the three slots.
+>   - The slot of ground in the middle on Arduino ground slot.
+>   - The right one on the mini test board to have two  input for Bluetooth module and 5v for Arduino.
 
-* **STEP 2:**
+> * **STEP 2:**
 
-  Connecting each 2-car motors in parallel.
+>  Connecting each 2-car motors in parallel.
 
-* **STEP 3:**
+> * **STEP 3:**
 
-  Connecting the HC-05 Bluetooth Module to the Arduino.
+>  Connecting the HC-05 Bluetooth Module to the Arduino.
+>  The HC-05 Bluetooth Module is responsible for enabling Bluetooth Communication between Arduino and Mobile Phone.
 
-  The HC-05 Bluetooth Module is responsible for enabling Bluetooth Communication between Arduino and Mobile Phone.
-
-* **STEP 4:**
+> * **STEP 4:**
   
-  Checking the Arduino bins' connection:
+>  Checking the Arduino bins' connection:
+>  * Arduino GND -> motor driver GND
+>  * Arduino TX slot -> Bluetooth module RX slot
+>  * Arduino RX slot -> Bluetooth module TX slot
+>  * motor driver VCC -> Bluetooth module VCC
 
-  * Arduino GND -> motor driver GND
+> * **STEP 5:** 
 
-  * Arduino TX slot -> Bluetooth module RX slot
+>  Testing the car -> [Testing Video](https://github.com/Controllers-Group/RC_car_project/tree/main/Testing)
 
-  * Arduino RX slot -> Bluetooth module TX slot
-  
+> * **STEP 6:** 
 
-* **STEP 5:** 
-
-  Testing the car -> [Testing Video](https://github.com/Controllers-Group/RC_car_project/tree/main/Testing)
-
-* **STEP 6:** 
-
-  Conducting the control analysis (in the following section). 
+> Conducting the control analysis (in the following section). 
 
 
 ## Analysis:
 
-For the modeling and transfer function of rc car:
- * The studied system is electrical system. 
- * The input is the signal coming from the bluetooth module. 
- * The output is the voltage across the capacitor.
- 
+> For the **modeling** and **transfer function** of the RC car system:
+
+>   * The studied system is electrical system. 
+>   * The input is the signal coming from the bluetooth module. 
+>   * The output is the voltage across the capacitor.
+
 <p align="center">
  <img width="400" src="https://user-images.githubusercontent.com/91850794/209574164-bc1a8112-d742-46ba-8d89-12a4e76c8652.png" alt="Material Bread logo">
  </p>
  
- * The damping ratio (ζ) for the system in the standard equation will be less than 1 that is the reason of having an underdamped system if we want to go forward all
-  the outputs will be active and in case we want to turn right or left we we will deactivate one output and activate the other one.
+>   * The damping ratio (ζ) for the system in the standard equation will be less than 1 that is the reason of having an underdamped system if we want to go forward all the outputs will be active and in case we want to turn right or left we we will deactivate one output and activate the other one.
+
+> For the **block diagram** of the system:
+
+<p align="center">
+ <img width="800" src="https://user-images.githubusercontent.com/91850794/209575006-4ab8e528-c55e-4265-b918-d6305561f3f6.png" alt="Material Bread logo">
+ </p>
+ 
+
 
 
 ## Recommendations:
 
-For the 
+> The Project can be furthur developed if a Desktop GUI was made to control the car not only by the mobile phone but also with the computer device. We worked on this idea using python to make the GUI but for the shortage of time, the GUI wasn't completed.
+
+## Conclusion:
+
+> An Arduino-Based bluetooth-controlled RC-car was designed and systematically analysied using what is learnt in our control course. 
 
 ## References:
 
-Arduino-Based bluetooth-controlled RC-car Reaserch Paper -> [Click here](http://csjournals.com/IJCSC/PDF11-1/2.%20Paul.pdf)
+> Arduino-Based bluetooth-controlled RC-car Reaserch Paper -> [Click here](http://csjournals.com/IJCSC/PDF11-1/2.%20Paul.pdf)
 
 
