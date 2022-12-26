@@ -5,6 +5,11 @@
        1. Project content.
        2. How to navigate the GitHub Project repository.
 
+<p align="center">
+ <img width="400" src="https://user-images.githubusercontent.com/91850794/209578154-9e474e32-3cb2-4d09-afc9-402349caab8e.png" alt="Material Bread logo">
+ </p>
+ 
+
 
 # Project Content:
 
